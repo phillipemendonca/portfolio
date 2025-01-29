@@ -1,0 +1,59 @@
+.contact {
+  margin-top: 8rem;
+}
+
+.roxo {
+  color: var(--purple);
+}
+
+.ultimo-p {
+  margin-top: 5px;
+  color: var(--gray-500);
+  font: var(--text-md);
+  margin-bottom: 3rem;
+}
+
+#zero {
+  margin-top: 0;
+}
+.zero-b {
+  margin-bottom: 0;
+}
+
+.contact-box {
+  height: 20rem;
+  margin-bottom: 12.5rem;
+
+  flex-direction: column;
+
+}
+
+.contact-card {
+  width: 25rem;
+  height: 4.25rem;
+  background-color: var(--gray-300);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.contact-card:hover {
+  border: 1px solid var(--blue);
+}
+
+.medio {
+  color: var(--gray-600);
+  font: var(--text-md);
+}
+
+.margem-8 {
+  padding-left: 0.625rem;
+  padding-top:0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 25rem){
+  .contact-card{
+    width: 20rem;
+  }  
+}
